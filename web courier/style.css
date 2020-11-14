@@ -1,0 +1,449 @@
+   * {
+       box-sizing: border-box;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       padding: 0;
+       margin: 0;
+   }
+
+
+   header nav ul .nav-item .btn {
+       color: coral;
+       background-color: rgb(255, 255, 255);
+       border: 1px coral solid;
+   }
+
+   header nav ul .nav-item .btn:hover {
+       background-color: rgba(255, 165, 80, 0.897);
+       color: aliceblue;
+       border: 2px solid rgba(255, 163, 77, 0.849);
+   }
+
+   header .navbar .navbar-brand h1 {
+       color: coral;
+   }
+
+   header .navbar .nav .nav-item .nav-link:hover {
+       transition-duration: 1s;
+       color: rgba(255, 106, 47, 0.856);
+       border: 1px solid;
+   }
+
+   ul li a {
+       color: coral;
+       font-weight: bold;
+       font-size: large;
+   }
+
+
+   ul li .dropdown-menu .dropdown-item {
+       color: coral;
+   }
+
+   ul li .dropdown-menu {
+       color: coral;
+   }
+
+   ul .dropdown-toggle {
+       color: coral;
+   }
+
+   section {
+       background-color: rgba(255, 255, 255, 0.815);
+   }
+
+   section .left-side img {
+       width: 90%;
+   }
+
+   section .right-side h1 {
+       color: coral;
+       margin-top: 30%;
+   }
+
+   section .right-side p {
+       color: black;
+   }
+
+   section .right-side input {
+       width: 70%;
+       height: 40px;
+       border-color: coral;
+       border: 2px solid coral;
+       border-radius: 4px;
+
+
+   }
+
+   section .right-side button {
+       color: coral;
+       background-color: rgb(255, 255, 255);
+       border: 2px coral solid;
+       margin-bottom: 0.5%;
+   }
+
+   section .right-side button:hover {
+       border: 1px solid transparent;
+       transition: 2s;
+       color: white;
+       transition-delay: 0.1;
+       background-color: rgb(255, 94, 35);
+   }
+
+   .section-1 {
+       margin-top: 5%;
+   }
+
+   .section-1 .right-side h1 {
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight: 800;
+       font-size: 50px;
+       color: black;
+   }
+
+   .section-1 .right-side p {
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight: 300;
+   }
+
+   .section-1 .right-side h3 {
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight: 700;
+   }
+
+   .section-1 .right-side a img {
+       margin-top: 5%;
+       padding-right: 2%;
+   }
+
+   .section-1 .left-side img {
+       margin-top: 7%;
+       height: auto;
+       max-width: 100%;
+   }
+
+   /* Responsive */
+
+   @media screen and (max-width: 696px) {
+       .section-1 .left-side img {
+           display: none;
+       }
+
+       .section-1 .right-side a img {
+           margin-left: 45px;
+       }
+   }
+
+   @media screen and (max-width: 487px) {
+       section .right-side input {
+           width: 50%;
+       }
+   }
+
+   @media screen and (max-width: 472px) {
+
+       .section-1 .right-side a img {
+           margin-left: 10px;
+       }
+   }
+
+   @media screen and (max-width: 396px) {
+       .section-1 .right-side a img {
+           margin-left: 80px;
+       }
+   }
+
+   @media screen and (max-width: 320px) {
+       .section-1 .right-side a img {
+           margin-left: 20%;
+       }
+   }
+
+   .thebest {
+       color: black;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-weight: 800;
+       text-align: center;
+       margin-top: 7%;
+   }
+
+   .alt-text {
+       text-align: center;
+       margin-left: 43%;
+       margin-top: 5%;
+   }
+
+   .cards {
+       margin-top: 5%;
+       display: flex;
+       justify-content: space-evenly;
+       box-sizing: border-box;
+   }
+
+   .cards .card {
+       width: 22rem;
+       border: 2px solid rgba(216, 112, 147, 0.24);
+       padding: 15px 15px 15px 15px;
+   }
+
+   .cards .card .card-img-top {
+       border: 5px solid transparent;
+       border-radius: 15px;
+
+   }
+
+   .cards .card:hover {
+       border: 2px solid coral;
+       transition: 1s;
+       transition-delay: 0.1;
+   }
+
+   @media screen and (max-width: 360px) {
+       .cards {
+           display: flex;
+           flex-direction: column;
+       }
+
+       .alt-text {
+           width: 220px;
+       }
+   }
+
+   @media screen and (max-width: 414px) {
+       .cards {
+           display: flex;
+           flex-direction: column;
+           width: 21rem;
+       }
+
+       .alt-text {
+           width: 280px;
+       }
+   }
+
+   @media screen and (min-width: 320px) {
+       .thebest {
+           font-size: xx-large;
+       }
+
+       .alt-text {
+           width: 200px;
+       }
+
+       .cards .card {
+           width: 19rem;
+           margin-bottom: 20px;
+       }
+   }
+
+   @media screen and (max-width: 790px) {
+       section .left-side img {
+           margin-top: 50%;
+       }
+
+       .section-1 .right-side h1 {
+           font-size: 35px;
+       }
+
+       .section-1 .right-side {
+           font-size: 10px;
+       }
+
+       .section-1 .right-side a img {
+           width: 100px;
+       }
+
+       .section-1 .left-side img {
+           padding-top: 20%;
+       }
+
+       .cards {
+           padding-right: 20px;
+       }
+
+       .alt-text {
+           margin: 20%;
+       }
+   }
+
+   @media screen and (max-width: 1072px) {
+       .alt-text {
+           width: 500px;
+       }
+
+       .section-1 .right-side {
+           font-size: 5px;
+       }
+
+       .section-1 .right-side h1 {
+           font-size: 35px;
+       }
+
+       .section-1 .right-side a img {
+           width: 100px;
+       }
+
+       .section-1 .left-side img {
+           margin-top: 10%;
+       }
+
+       .section-1 p {
+           font-size: 15px;
+       }
+
+       .thebest {
+           font-size: 40px;
+       }
+   }
+
+   @media screen and (max-width: 638px) {
+       .section-1 p {
+           font-size: 20px;
+       }
+
+       section .left-side img {
+           width: 550px;
+           padding-bottom: 150px;
+       }
+
+       .alt-text {
+           width: 370px;
+       }
+
+       .cards {
+           display: flex;
+           flex-direction: column;
+           width: 20rem;
+       }
+   }
+
+   @media screen and (max-width: 280px) {
+       .section-1 p {
+           font-size: 15px;
+       }
+
+       .alt-text {
+           width: 180px;
+           font-size: 15px;
+       }
+
+       .cards .card {
+           width: 16rem;
+       }
+
+       .section-1 .right-side a img {
+           width: 150px;
+       }
+   }
+
+   .sub-section {
+       margin: 40px 40px 40px 40px;
+       text-align: center;
+   }
+
+   .sub-section h1 {
+       font-size: 60px;
+       font-weight: 800;
+   }
+
+   .container {
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+   }
+
+   .counter-container {
+       text-align: center;
+   }
+
+   .count {
+       display: block;
+       margin-bottom: 20px;
+       font-size: 80px;
+       color: coral;
+   }
+
+   .count-detail {
+       font-size: 17px;
+       white-space: nowrap;
+       color: rgba(0, 0, 0, 0.719);
+   }
+
+   @media screen and (max-width: 682px) {
+       .container {
+           display: flex;
+           flex-direction: column;
+       }
+   }
+
+   .alt-texte {
+       text-decoration: none;
+       justify-content: center;
+       padding-left: 16%;
+   }
+
+   .alt-texte .re .loc {
+       width: 20px;
+       height: 20px;
+   }
+
+   .alt-food-text {
+       font-size: 25px;
+       padding-top: 50px;
+       padding-bottom: 50px;
+   }
+
+   .input-group {
+       width: 50%;
+       margin-left: 25%;
+       margin-top: 5%;
+   }
+
+   .input-group input {
+       border-color: coral;
+   }
+
+   .input-group button {
+       margin-left: 10px;
+       border: 1px solid coral;
+       color: white;
+       background-color: coral;
+   }
+
+   .input-group button:hover {
+       border: 1px solid transparent;
+       transition: 2s;
+       transition-delay: 0.1;
+       background-color: rgb(255, 94, 35);
+   }
+
+   .input-group .alt-input {
+       text-align: center;
+   }
+
+   .become {
+       padding: 140px 140px;
+       text-align: center;
+       background-color: rgba(238, 130, 238, 0.116);
+       letter-spacing: 1px;
+   }
+
+   footer .foot {
+       color: white;
+       background-color: rgba(18, 28, 58, 0.726);
+       padding-left: 240px;
+       padding-top: 60px;
+       padding-bottom: 60px;
+       padding-right: 240px;
+   }
+
+   footer .foot ul li a {
+       color: white;
+       
+   }
+
+   footer .foot ul {
+       list-style-type: none;
+   }
+   footer .foot .right a img{
+background-color: rgba(255, 255, 255, 0.384);     
+   }
